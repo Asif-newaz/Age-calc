@@ -19,7 +19,10 @@ function ageInDays() {
 
     document.getElementById('flex-box-result').appendChild(h1);
 
+
 }
+
+// console.log(ageInDays);
 
 // This function is for reset data
 function reset() {
@@ -27,3 +30,5 @@ function reset() {
     document.getElementById('ageInDays').remove();
 
 }
+
+// console.log(reset);
