@@ -1,5 +1,7 @@
 // Challenge 1: Your age in days
 
+
+// This function is for calculating age
 function ageInDays() {
 
     var birthYear = prompt('What year were you born... Good friend?');
@@ -19,6 +21,9 @@ function ageInDays() {
 
 }
 
+// This function is for reset data
 function reset() {
+
     document.getElementById('ageInDays').remove();
+
 }
